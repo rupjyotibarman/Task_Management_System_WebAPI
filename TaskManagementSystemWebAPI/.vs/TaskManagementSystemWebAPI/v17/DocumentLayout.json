@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\taskmanagementsystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:taskmanagementsystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskManagementSystemWebAPI",
+              "DocumentIndex": 1,
+              "Title": "TaskManagementSystemWebAPI.csproj",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\TaskManagementSystemWebAPI.csproj",
               "RelativeDocumentMoniker": "TaskManagementSystemWebAPI.csproj",
               "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\TaskManagementSystemWebAPI.csproj",
               "RelativeToolTip": "TaskManagementSystemWebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T08:00:41.299Z",
+              "WhenOpened": "2026-03-28T15:30:03.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Ticket.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
+              "RelativeToolTip": "Models\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:23:57.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:23:30.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:21:11.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:14:32.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T15:10:17.88Z",
               "EditorCaption": ""
             }
           ]
