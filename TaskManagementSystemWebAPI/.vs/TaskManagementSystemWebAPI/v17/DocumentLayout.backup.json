@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\taskmanagementsystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:taskmanagementsystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManagementSystemWebAPI",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\TaskManagementSystemWebAPI.csproj",
+              "RelativeDocumentMoniker": "TaskManagementSystemWebAPI.csproj",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\TaskManagementSystemWebAPI.csproj",
+              "RelativeToolTip": "TaskManagementSystemWebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T08:00:41.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
