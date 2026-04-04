@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Middleware\" />
-    <Folder Include="Helpers\" />
     <Folder Include="Configuration\" />
     <Folder Include="Models\DTOs\" />
     <Folder Include="Repositories\" />
