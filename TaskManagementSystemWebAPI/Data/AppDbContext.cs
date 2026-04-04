@@ -35,6 +35,12 @@ namespace TaskManagementSystemWebAPI.Data
                 .WithMany(u => u.AssignedTickets)
                 .HasForeignKey(t => t.AssignedTo)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Role>().HasData(
+                new Role { Id = 1, Name = "User" },
+                new Role { Id = 2, Name = "Agent" },
+                new Role { Id = 3, Name = "Admin" }
+            );
         }
     }
 
