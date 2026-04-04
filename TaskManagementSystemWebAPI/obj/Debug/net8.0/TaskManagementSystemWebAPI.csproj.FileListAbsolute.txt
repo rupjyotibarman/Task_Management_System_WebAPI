@@ -144,3 +144,4 @@ D:\SelfLearning\ProjectPractice\TaskManageWebApiReact\ProjectsFrontEndBackend\Ta
 D:\SelfLearning\ProjectPractice\TaskManageWebApiReact\ProjectsFrontEndBackend\Task_Management_System_WebAPI\TaskManagementSystemWebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\SelfLearning\ProjectPractice\TaskManageWebApiReact\ProjectsFrontEndBackend\Task_Management_System_WebAPI\TaskManagementSystemWebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\SelfLearning\ProjectPractice\TaskManageWebApiReact\ProjectsFrontEndBackend\Task_Management_System_WebAPI\TaskManagementSystemWebAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\SelfLearning\ProjectPractice\TaskManageWebApiReact\ProjectsFrontEndBackend\Task_Management_System_WebAPI\TaskManagementSystemWebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
