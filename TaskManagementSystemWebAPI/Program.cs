@@ -1,6 +1,7 @@
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using TaskManagementSystemWebAPI.Data;
 using TaskManagementSystemWebAPI.Helpers;
 
@@ -40,6 +41,35 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+//JWT authorization in Swagger
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter: Bearer {your JWT token}"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
+
 //Register JWT Service 
 builder.Services.AddScoped<JwtService>();
 builder.Services.AddAuthorization();
@@ -56,8 +86,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
-app.UseAuthentication();
+app.UseAuthentication();   // Authentication always 1st
+app.UseAuthorization();    // then Authorization
 app.MapControllers();
 
 app.Run();

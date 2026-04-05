@@ -20,6 +20,7 @@ namespace TaskManagementSystemWebAPI.Controllers
         }
 
         //1. Create Ticket (User)
+        [Authorize(Roles = "User")]
         [HttpPost]
         public async Task<IActionResult> CreateTicket([FromBody] CreateTicketRequest dto)
         {

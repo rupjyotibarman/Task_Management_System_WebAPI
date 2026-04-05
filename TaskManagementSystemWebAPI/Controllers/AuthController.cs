@@ -21,14 +21,25 @@ namespace TaskManagementSystemWebAPI.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User user)
+        public async Task<IActionResult> Register([FromBody] RegisterRequest register)
         {
-            // Hash password
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            var user = new User
+            {
+                Name = register.Name,
+                Email = register.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(register.Password),
+                RoleId = 1, // Default User
+            };
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-
+            try
+            {
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return Ok("User created");
         }
 
