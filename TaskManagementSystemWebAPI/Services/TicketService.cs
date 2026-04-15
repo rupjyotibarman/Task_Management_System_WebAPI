@@ -63,10 +63,25 @@ namespace TaskManagementSystemWebAPI.Services
 
             await _ticketRepository.UpdateAsync(ticket);
         }
-
-        public Task<List<Ticket>> GetMyTicketAsync(int userId)
+        public async Task<List<Ticket>> GetAssignedTicketsAsync(int userId)
         {
-            throw new NotImplementedException();
+            return await _ticketRepository.GetAssignedTicketsAsync(userId);
+        }
+        public async Task<List<Ticket>> GetAllTicketsAsync()
+        {
+            return await _ticketRepository.GetAllAsync();
+        }
+        public async Task DeleteTicketAsync(int ticketId, int userId)
+        {
+            var ticket = await _ticketRepository.GetByIdAsync(ticketId);
+
+            if (ticket == null)
+                throw new Exception("Ticket not found");
+
+            if (ticket.CreatedBy != userId)
+                throw new Exception("You can only delete your own tickets");
+
+            await _ticketRepository.DeleteAsync(ticket);
         }
     }
 }

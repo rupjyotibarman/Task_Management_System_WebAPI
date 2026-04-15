@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using TaskManagementSystemWebAPI.Data;
 using TaskManagementSystemWebAPI.Models.DTOs;
-using TaskManagementSystemWebAPI.Models.Entities;
+using TaskManagementSystemWebAPI.Services.Interfaces;
 
 namespace TaskManagementSystemWebAPI.Controllers
 {
@@ -12,138 +11,89 @@ namespace TaskManagementSystemWebAPI.Controllers
     [Authorize]
     public class TicketController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly ITicketService _ticketService;
 
-        public TicketController(AppDbContext context)
+        public TicketController(ITicketService ticketService)
         {
-            _context = context;
+            _ticketService = ticketService;
         }
 
-        //1. Create Ticket (User)
+        // 1️ Create Ticket (User)
         [Authorize(Roles = "User")]
         [HttpPost]
         public async Task<IActionResult> CreateTicket([FromBody] CreateTicketRequest dto)
         {
-            var userId = int.Parse(User.FindFirst("userId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var ticket = new Ticket
-            {
-                Title = dto.Title,
-                Description = dto.Description,
-                Status = "Open",
-                CreatedBy = userId,
-                CreatedAt = DateTime.UtcNow
-            };
-
-            _context.Tickets.Add(ticket);
-            await _context.SaveChangesAsync();
+            var ticket = await _ticketService.CreateTicketAsync(userId, dto);
 
             return Ok(ticket);
         }
 
-        //2. Get My Tickets (User)
+        // 2️ Get My Tickets (User)
         [HttpGet("my")]
         public async Task<IActionResult> GetMyTickets()
         {
-            var userId = int.Parse(User.FindFirst("userId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var tickets = await _context.Tickets
-                .Where(t => t.CreatedBy == userId)
-                .ToListAsync();
+            var tickets = await _ticketService.GetMyTicketsAsync(userId);
 
             return Ok(tickets);
         }
 
-        //3. Get Assigned Tickets (Agent)
+        // 3️ Get Assigned Tickets (Agent)
         [Authorize(Roles = "Agent")]
         [HttpGet("assigned")]
         public async Task<IActionResult> GetAssignedTickets()
         {
-            var userId = int.Parse(User.FindFirst("userId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var tickets = await _context.Tickets
-                .Where(t => t.AssignedTo == userId)
-                .ToListAsync();
+            var tickets = await _ticketService.GetAssignedTicketsAsync(userId);
 
             return Ok(tickets);
         }
 
-        //4. Get All Tickets (Admin)
+        // 4️ Get All Tickets (Admin)
         [Authorize(Roles = "Admin")]
         [HttpGet("all")]
         public async Task<IActionResult> GetAllTickets()
         {
-            var tickets = await _context.Tickets
-                .Include(t => t.CreatedByUser)
-                .Include(t => t.AssignedToUser)
-                .ToListAsync();
+            var tickets = await _ticketService.GetAllTicketsAsync();
 
             return Ok(tickets);
         }
 
-        //5. Assign Ticket (Admin)
+        // 5️ Assign Ticket (Admin)
         [Authorize(Roles = "Admin")]
         [HttpPost("assign")]
         public async Task<IActionResult> AssignTicket([FromBody] AssignTicketRequest dto)
         {
-            var ticket = await _context.Tickets.FindAsync(dto.TicketId);
+            await _ticketService.AssignTicketAsync(dto.TicketId, dto.AgentId);
 
-            if (ticket == null)
-                return NotFound("Ticket not found");
-
-            var agent = await _context.Users.FindAsync(dto.AgentId);
-
-            if (agent == null)
-                return NotFound("Agent not found");
-
-            ticket.AssignedTo = dto.AgentId;
-            ticket.Status = "InProgress";
-
-            await _context.SaveChangesAsync();
-
-            return Ok(ticket);
+            return Ok("Ticket assigned successfully");
         }
 
-        //6. Update Ticket Status (Agent)
+        // 6️ Update Ticket Status (Agent)
         [Authorize(Roles = "Agent")]
         [HttpPost("status")]
         public async Task<IActionResult> UpdateStatus([FromBody] UpdateStatusRequest dto)
         {
-            var userId = int.Parse(User.FindFirst("userId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var ticket = await _context.Tickets.FindAsync(dto.TicketId);
+            await _ticketService.UpdateStatusAsync(dto.TicketId, userId, dto.Status);
 
-            if (ticket == null)
-                return NotFound("Ticket not found");
-
-            if (ticket.AssignedTo != userId)
-                return Forbid("You are not assigned to this ticket");
-
-            ticket.Status = dto.Status;
-
-            await _context.SaveChangesAsync();
-
-            return Ok(ticket);
+            return Ok("Status updated successfully");
         }
 
-        //7. Delete Ticket (Optional - Owner Only)
+        // 7️ Delete Ticket (Owner Only)
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTicket(int id)
         {
-            var userId = int.Parse(User.FindFirst("userId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var ticket = await _context.Tickets.FindAsync(id);
+            await _ticketService.DeleteTicketAsync(id, userId);
 
-            if (ticket == null)
-                return NotFound("Ticket not found");
-
-            if (ticket.CreatedBy != userId)
-                return Forbid("You can only delete your own tickets");
-
-            _context.Tickets.Remove(ticket);
-            await _context.SaveChangesAsync();
-
-            return Ok("Ticket deleted");
+            return Ok("Ticket deleted successfully");
         }
     }
 }
