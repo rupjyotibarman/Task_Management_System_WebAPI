@@ -4,6 +4,10 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using TaskManagementSystemWebAPI.Data;
 using TaskManagementSystemWebAPI.Helpers;
+using TaskManagementSystemWebAPI.Repositories;
+using TaskManagementSystemWebAPI.Repositories.Interfaces;
+using TaskManagementSystemWebAPI.Services;
+using TaskManagementSystemWebAPI.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +21,10 @@ builder.Services.AddSwaggerGen();
 //DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//DI for service and repository 
+builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 
 //JWT
 builder.Services.AddAuthentication(options =>

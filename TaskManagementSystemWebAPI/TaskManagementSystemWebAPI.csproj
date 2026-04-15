@@ -21,8 +21,8 @@
   <ItemGroup>
     <Folder Include="Middleware\" />
     <Folder Include="Configuration\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Logging\" />
   </ItemGroup>
 
 </Project>
