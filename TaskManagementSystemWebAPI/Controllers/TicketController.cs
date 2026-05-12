@@ -25,9 +25,9 @@ namespace TaskManagementSystemWebAPI.Controllers
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var ticket = await _ticketService.CreateTicketAsync(userId, dto);
+            TicketResponse ticketRes = await _ticketService.CreateTicketAsync(userId, dto);
 
-            return Ok(ticket);
+            return Ok(ticketRes);
         }
 
         // 2️ Get My Tickets (User)

@@ -3,6 +3,7 @@ using TaskManagementSystemWebAPI.Models.Entities;
 using TaskManagementSystemWebAPI.Services.Interfaces;
 using TaskManagementSystemWebAPI.Repositories.Interfaces;
 using TaskManagementSystemWebAPI.Enums;
+using TaskManagementSystemWebAPI.Mapping;
 
 namespace TaskManagementSystemWebAPI.Services
 {
@@ -28,12 +29,13 @@ namespace TaskManagementSystemWebAPI.Services
             };
 
             await _ticketRepository.AddAsync(ticket);
-            return ticket;
+            return TicketMapper.ToResponse(ticket);
         }
 
-        public async Task<List<Ticket>> GetMyTicketsAsync(int userId)
+        public async Task<List<TicketResponse>> GetMyTicketsAsync(int userId)
         {
-            return await _ticketRepository.GetByUserIdAsync(userId);
+            var tickets = await _ticketRepository.GetByUserIdAsync(userId);
+            return TicketMapper.ToResponseList(tickets);
         }
 
         public async Task AssignTicketAsync(int ticketId, int agentId)

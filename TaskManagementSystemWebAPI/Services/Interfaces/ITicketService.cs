@@ -5,7 +5,7 @@ namespace TaskManagementSystemWebAPI.Services.Interfaces
     public interface ITicketService
     {
         Task<TicketResponse> CreateTicketAsync(int userId, CreateTicketRequest requestDto);
-        Task<List<Ticket>> GetMyTicketsAsync(int userId);
+        Task<List<TicketResponse>> GetMyTicketsAsync(int userId);
         Task AssignTicketAsync(int ticketId, int agentId);
         Task UpdateStatusAsync(int ticketId, int userId, string status);
         Task<List<Ticket>> GetAssignedTicketsAsync(int userId);
