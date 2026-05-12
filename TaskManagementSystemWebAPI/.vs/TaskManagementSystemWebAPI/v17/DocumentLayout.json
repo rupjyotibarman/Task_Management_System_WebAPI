@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\dtos\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:models\\dtos\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|solutionrelative:models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA47EC9F-D953-4B82-80DC-BD75A039CAC0}|TaskManagementSystemWebAPI.csproj|d:\\selflearning\\projectpractice\\taskmanagewebapireact\\projectsfrontendbackend\\task_management_system_webapi\\taskmanagementsystemwebapi\\models\\dtos\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,15 +103,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITicketRepository.cs",
-              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Repositories\\Interfaces\\ITicketRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITicketRepository.cs",
-              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Repositories\\Interfaces\\ITicketRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\ITicketRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIA2wAwAAAANAAAAAAAAAA==",
+              "Title": "TicketResponse.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\TicketResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\TicketResponse.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\TicketResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\TicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T14:09:13.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T15:41:19.403Z"
             },
             {
               "$type": "Document",
@@ -117,27 +120,26 @@
               "RelativeDocumentMoniker": "Services\\TicketService.cs",
               "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Services\\TicketService.cs",
               "RelativeToolTip": "Services\\TicketService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T14:05:55.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ITicketService.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Services\\Interfaces\\ITicketService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ITicketService.cs",
               "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Services\\Interfaces\\ITicketService.cs",
               "RelativeToolTip": "Services\\Interfaces\\ITicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T13:59:36.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T13:59:36.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -149,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -157,12 +159,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAIA2wE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T15:21:11.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T15:21:11.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TicketController.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
@@ -170,12 +171,35 @@
               "RelativeToolTip": "Controllers\\TicketController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T18:16:09.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T18:16:09.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Ticket.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
+              "RelativeToolTip": "Models\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:23:57.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA2wAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:09:13.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TicketRepository.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Repositories\\TicketRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
@@ -183,12 +207,11 @@
               "RelativeToolTip": "Repositories\\TicketRepository.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T14:21:16.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T14:21:16.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "StatusEnum.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Enums\\StatusEnum.cs",
               "RelativeDocumentMoniker": "Enums\\StatusEnum.cs",
@@ -200,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AssignTicketRequest.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\AssignTicketRequest.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\AssignTicketRequest.cs",
@@ -212,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CreateTicketRequest.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\CreateTicketRequest.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\CreateTicketRequest.cs",
@@ -224,19 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Ticket.cs",
-              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Ticket.cs",
-              "RelativeToolTip": "Models\\Entities\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T15:23:57.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -244,12 +255,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAIwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T15:19:33.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T15:19:33.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
@@ -261,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "JwtService.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Helpers\\JwtService.cs",
               "RelativeDocumentMoniker": "Helpers\\JwtService.cs",
@@ -273,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -285,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20260404160227_addedRoles.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Migrations\\20260404160227_addedRoles.cs",
               "RelativeDocumentMoniker": "Migrations\\20260404160227_addedRoles.cs",
@@ -297,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\RegisterRequest.cs",
@@ -309,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Role.cs",
@@ -321,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UpdateStatusRequest.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\UpdateStatusRequest.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\UpdateStatusRequest.cs",
@@ -333,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TaskManagementSystemWebAPI.csproj",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\TaskManagementSystemWebAPI.csproj",
               "RelativeDocumentMoniker": "TaskManagementSystemWebAPI.csproj",
@@ -345,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\TaskManageWebApiReact\\ProjectsFrontEndBackend\\Task_Management_System_WebAPI\\TaskManagementSystemWebAPI\\Models\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\LoginRequest.cs",

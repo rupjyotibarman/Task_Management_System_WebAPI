@@ -16,7 +16,7 @@ namespace TaskManagementSystemWebAPI.Services
         }
 
         //Ticket Handles Methods
-        public async Task<Ticket> CreateTicketAsync(int userId, CreateTicketRequest dto)
+        public async Task<TicketResponse> CreateTicketAsync(int userId, CreateTicketRequest dto)
         {
             var ticket = new Ticket
             {
