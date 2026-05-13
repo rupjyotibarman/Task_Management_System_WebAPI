@@ -3,6 +3,6 @@
     public class UpdateStatusRequest
     {
         public int TicketId { get; set; }
-        public string Status { get; set; }
+        public required string Status { get; set; }
     }
 }
