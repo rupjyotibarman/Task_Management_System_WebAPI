@@ -32,17 +32,18 @@ namespace TaskManagementSystemWebAPI.Repositories
             return await _context.Tickets.FindAsync(id);
         }
 
-        public async Task UpdateAsync(Ticket ticket)
-        {
-            _context.Tickets.Update(ticket);
-            await _context.SaveChangesAsync();
-        }
         public async Task<List<Ticket>> GetAssignedTicketsAsync(int userId)
         {
             return await _context.Tickets
                 .Where(t => t.AssignedTo == userId)
                 .ToListAsync();
         }
+        public async Task UpdateAsync(Ticket ticket)
+        {
+            _context.Tickets.Update(ticket);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<List<Ticket>> GetAllAsync()
         {
             return await _context.Tickets

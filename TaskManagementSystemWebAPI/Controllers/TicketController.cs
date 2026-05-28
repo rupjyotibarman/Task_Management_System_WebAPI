@@ -36,7 +36,7 @@ namespace TaskManagementSystemWebAPI.Controllers
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var tickets = await _ticketService.GetMyTicketsAsync(userId);
+            List<TicketResponse> tickets = await _ticketService.GetMyTicketsAsync(userId);
 
             return Ok(tickets);
         }
@@ -48,7 +48,7 @@ namespace TaskManagementSystemWebAPI.Controllers
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var tickets = await _ticketService.GetAssignedTicketsAsync(userId);
+            List<TicketResponse> tickets = await _ticketService.GetAssignedTicketsAsync(userId);
 
             return Ok(tickets);
         }
@@ -58,7 +58,7 @@ namespace TaskManagementSystemWebAPI.Controllers
         [HttpGet("all")]
         public async Task<IActionResult> GetAllTickets()
         {
-            var tickets = await _ticketService.GetAllTicketsAsync();
+            List<TicketResponse> tickets = await _ticketService.GetAllTicketsAsync();
 
             return Ok(tickets);
         }
@@ -69,7 +69,6 @@ namespace TaskManagementSystemWebAPI.Controllers
         public async Task<IActionResult> AssignTicket([FromBody] AssignTicketRequest dto)
         {
             await _ticketService.AssignTicketAsync(dto.TicketId, dto.AgentId);
-
             return Ok("Ticket assigned successfully");
         }
 

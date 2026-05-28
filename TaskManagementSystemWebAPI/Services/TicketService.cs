@@ -38,6 +38,12 @@ namespace TaskManagementSystemWebAPI.Services
             return TicketMapper.ToResponseList(tickets);
         }
 
+        public async Task<List<TicketResponse>> GetAssignedTicketsAsync(int userId)
+        {
+            var tickets = await _ticketRepository.GetAssignedTicketsAsync(userId);
+            return TicketMapper.ToResponseList(tickets);
+        }
+
         public async Task AssignTicketAsync(int ticketId, int agentId)
         {
             var ticket = await _ticketRepository.GetByIdAsync(ticketId);
@@ -65,13 +71,11 @@ namespace TaskManagementSystemWebAPI.Services
 
             await _ticketRepository.UpdateAsync(ticket);
         }
-        public async Task<List<Ticket>> GetAssignedTicketsAsync(int userId)
+
+        public async Task<List<TicketResponse>> GetAllTicketsAsync()
         {
-            return await _ticketRepository.GetAssignedTicketsAsync(userId);
-        }
-        public async Task<List<Ticket>> GetAllTicketsAsync()
-        {
-            return await _ticketRepository.GetAllAsync();
+            var tickets =  await _ticketRepository.GetAllAsync();
+            return TicketMapper.ToResponseList(tickets);
         }
         public async Task DeleteTicketAsync(int ticketId, int userId)
         {

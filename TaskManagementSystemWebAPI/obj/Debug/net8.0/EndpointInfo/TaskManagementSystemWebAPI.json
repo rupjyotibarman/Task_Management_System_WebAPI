@@ -237,6 +237,10 @@
         "additionalProperties": false
       },
       "CreateTicketRequest": {
+        "required": [
+          "description",
+          "title"
+        ],
         "type": "object",
         "properties": {
           "title": {
@@ -251,6 +255,10 @@
         "additionalProperties": false
       },
       "LoginRequest": {
+        "required": [
+          "email",
+          "password"
+        ],
         "type": "object",
         "properties": {
           "email": {
@@ -265,6 +273,11 @@
         "additionalProperties": false
       },
       "RegisterRequest": {
+        "required": [
+          "email",
+          "name",
+          "password"
+        ],
         "type": "object",
         "properties": {
           "name": {
@@ -283,6 +296,9 @@
         "additionalProperties": false
       },
       "UpdateStatusRequest": {
+        "required": [
+          "status"
+        ],
         "type": "object",
         "properties": {
           "ticketId": {
